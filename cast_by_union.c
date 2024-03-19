@@ -5,7 +5,7 @@ size_t ptr2size(void *ptr)
 {
     // We can use that to interpret any value of type to any other type of same size
     // The value is read as an another type so the convertion between integer and float make the result unreadable...
-    // However we can use the convertion between integer ant float to write floats in binary (for exemple)
+    // However we can use the convertion between integer ant float to write floats in binary (for example)
     union {
         void *ptr;
         size_t res;
